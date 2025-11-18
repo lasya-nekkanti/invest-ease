@@ -9,6 +9,7 @@ import { OptionalDetailsPage } from './pages/OptionalDetailsPage'
 import { RecommendationPage } from './pages/RecommendationPage'
 import { ComparePlansPage } from './pages/ComparePlansPage'
 import { SIPCalculatorPage } from './pages/SIPCalculatorPage'
+import { LearningHubPage } from './pages/LearningHubPage'
 import { NotFoundPage } from './pages/NotFoundPage'
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
           <Route path="/recommendation" element={<RecommendationPage />} />
           <Route path="/compare" element={<ComparePlansPage />} />
           <Route path="/sip-calculator" element={<SIPCalculatorPage />} />
+          <Route path="/learning-hub" element={<LearningHubPage />} />
           <Route path="*" element={<NotFoundPage />} />
         </Routes>
       </main>
