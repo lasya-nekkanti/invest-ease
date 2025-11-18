@@ -175,13 +175,7 @@ const learningHubContent: Topic[] = [
       'Tax benefits available on certain government bonds'
     ],
     videos: [
-      {
-        id: 'bonds-1',
-        title: 'What are government bonds?',
-        url: 'https://www.youtube.com/watch?v=Saqn77p63cE',
-        duration: '2:37',
-        thumbnail: 'https://img.youtube.com/vi/Saqn77p63cE/maxresdefault.jpg'
-      },
+      
       {
         id: 'bonds-2',
         title: 'What are Bonds and How do they work?',
